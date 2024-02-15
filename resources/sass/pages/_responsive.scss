@@ -1,0 +1,351 @@
+@media(max-width:1600px){
+    .case-study-content{
+        padding-left: 6%;
+    }
+    .service-carousel{
+        .owl-item{
+           .item{
+            // width:320px;
+            // flex:0 0 320px;
+            // height: 320px;
+
+
+            h4{
+                font-size: 18px;
+            }
+    
+            .hover-content{
+               
+                .inner{
+                    max-height: 257px;
+                }
+            }
+           
+        }
+            &.center .item:hover{
+                // width:360px;
+                // flex:0 0 360px;
+                // height: 360px;
+                // transform: translateY(-20px);
+              
+            }
+        }
+    }
+}
+
+@media(max-width:1400px){
+    .jalapeno_navbar .navbar-brand{
+        margin-right: 60px;
+    }
+    .case-study-content{
+        padding-left:6%;
+    }  
+}
+
+@media(max-width:1366px){
+    .service-carousel{
+        .owl-item{
+           .item{
+            // width:260px;
+            // flex:0 0 260px;
+            // height: 260px;
+
+            h4{
+                font-size: 16px;
+            }
+    
+            .hover-content{
+               .inner{
+                    height: 100px;
+                }
+            }
+        }
+            &.center .item:hover{
+                // width:320px;
+                // flex:0 0 320px;
+                // height: 320px;
+                // transform: translateY(-30px);
+              
+            }
+        }
+    }
+    .jalapeno_navbar .navbar-nav .nav-link{
+        font-size: 14px;
+        padding: 1.5rem 0.5rem;
+
+    }
+}
+
+@media(max-width:1280px){
+    .jalapeno_navbar .navbar-brand{
+        width: 136px;
+        margin-right: 30px;
+    }
+    .jalapeno_navbar .navbar-nav .nav-link{
+        font-size: 13px;
+        padding: 1.5rem 0.5rem;
+    }
+}
+
+@media(max-width:1024px){
+
+    .service-carousel .owl-item .item {
+        // width: 220px;
+        // -webkit-box-flex: 0;
+        // -ms-flex: 0 0 260px;
+        // flex: 0 0 220px;
+        // height: 220px;
+    }
+    
+    .title.green span{
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    body.body .container-fluid{
+        padding: 0 1em;
+    }
+    // .jalapeno_navbar .navbar-brand{
+    //     width: 136px;
+    //     margin-right: 30px;
+    // }
+    .title h2{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .jalapeno_carousel .carousel-caption .leftContent h2 {
+        font-size: 46px;
+        line-height: 48px;
+    }
+    #download .news-blog>div:nth-child(even), .dowlable-carousel .owl-item:nth-child(even){
+        margin-top: 0;
+    }
+
+}
+
+@media(max-width:991px){
+    .jalapeno_carousel .carousel-caption .leftContent h2 {
+        font-size: 38px;
+        line-height: 45px;
+    }
+    body.body .container-fluid{
+        padding: 0 15px;
+    }
+    .jalapeno_navbar .navbar-nav .nav-link {
+         padding: 0.5rem 0rem;
+    }
+    .ourMethodology .container{
+        position: static;
+        transform: translate(0);
+    }
+    .help{
+        position: absolute;
+        right:64px;
+        top: 20px;
+    }
+    .btm_wrapper .btm:nth-child(even){
+        margin-top: 0;
+    }
+    .media-tabs .nav-tabs .nav-item {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .jalapeno_inner_banner .carousel-caption .content h2{
+        font-size: 37px;
+        line-height: 37px;
+    }
+    .dowlable-carousel .owl-item:nth-child(even){
+        margin-top: 0;
+    }
+    
+    .news-blog-block h4{
+        font-size: 20px;
+    }
+    .pro-carousel .owl-carousel .owl-item:nth-child(odd){
+        margin-top: 0;
+    }
+    .case-study-content{
+        padding-right: 6%;
+    }
+    .service-carousel{
+        .owl-item{
+           .item{
+            // width:260px;
+            // flex:0 0 260px;
+            // height: 260px;
+
+            h4{
+                font-size: 16px;
+            }
+    
+            .hover-content{
+               .inner{
+                    height: 100px;
+                }
+            }
+        }
+            &.center .item:hover{
+                // width:320px;
+                // flex:0 0 320px;
+                // height: 320px;
+                // transform: translateY(-30px);
+              
+            }
+        }
+    }
+}
+@media(max-width:767px){
+    .media-tabs .nav-tabs .nav-item{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .logos-carousel .owl-carousel .item{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .dowlable-carousel .owl-theme .owl-nav {
+        right: 0;
+        top: -10px;
+    }
+    
+    .jalapeno_navbar.navbar{
+        padding: 0;
+    }
+    .topbar{
+        position: fixed;
+        top:-170px;
+        width: 100%;
+        z-index: 2;
+        transition: ease all 0.5s;
+
+        &.open{
+            top: 0;
+
+        }
+    }
+    .jalapeno_navbar .navbar-brand{
+        width: 100px;
+    }
+    .close-topbar{
+        color:$white;
+    }
+    .help{
+        right: 44px;
+        top: 15px;
+    }
+
+    .jalapeno_carousel{
+        height: 70vh;
+        .carousel-item, .carousel-inner{
+            height: 100%;
+            .banner-img{
+                height: 100%;
+                height: 100%;
+                width: auto;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        .carousel-caption {
+            top: 50%;
+            bottom: auto;
+            text-align: unset;
+            left: 10%;
+            right: 10%;
+            width: calc(100% - 20%);
+            transform: translateY(-50%);
+            z-index: 3;
+
+           .leftContent h2{
+            font-size: 40px;
+            line-height: 50px;
+           }
+        }
+    }
+
+    .title h2{
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .testimonial{
+        background-size: 30%;
+    }
+
+    .logos {
+        flex-wrap: wrap;
+        li{
+            width: 25%;
+            flex:0 0 25%;
+        }
+    }
+    .counter-box h2{
+        font-size: 39px;
+    }
+    .fsh{
+        font-size: 20px;
+    }
+    .footer-logo{
+        width: 100px;
+    }
+    .social_media{
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media(max-width:568px){
+    .jalapeno_inner_banner .carousel-caption .content h2{
+        font-size: 27px;
+        line-height: 27px;
+    }
+    .media-tabs .nav-tabs .nav-item {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .media-tabs .nav-tabs .nav-item .nav-link{
+        font-size: 12px;
+    }
+    .title:before {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    p {
+       font-size: 14px;
+    }
+    .service-carousel{
+        .owl-item{
+            width:260px!important;
+            flex:0 0 260px!important;
+            height: 260px!important;
+                .item{
+                    width:260px;
+                    flex:0 0 260px;
+                    height: 260px;
+
+                    h4{
+                        font-size: 16px;
+                    }
+            
+                    .hover-content{
+                    .inner{
+                            height: 100px;
+                        }
+                    }
+                }
+            &.center{
+                width:320px!important;
+                flex:0 0 320px!important;
+                height: 320px!important;
+                .item{
+                    width:320px!important;
+                    flex:0 0 320px!important;
+                    height: 320px!important;
+                }
+              
+            }
+        }
+    }
+}

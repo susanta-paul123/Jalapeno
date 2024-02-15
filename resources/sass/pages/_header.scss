@@ -1,0 +1,280 @@
+.header{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    z-index: 99;
+    transition: ease all 0.5s;
+    &.sticky-nav{
+      width: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+        .topbar{
+          background-color: $main-color;
+          padding: 5px;
+      }
+      .navbar-brand{
+        width: 100px;
+      }
+      .navbar-nav .nav-link {
+        line-height: 46px;
+        color: #000000;
+        padding: 0.5rem 0.5rem;
+      }
+    }
+}
+.topbar{
+    background-color: $main-color;
+    padding: 15px;
+    transition: ease all 0.5s;
+}
+.toplinks{
+    p{
+        letter-spacing: 2px;
+        font-size: 12px;
+        margin: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-weight: 600;
+    }
+    a{
+        color:$black;
+    }
+}
+.bg-white{
+    background-color:#FCFEFF;
+}
+
+.jalapeno_navbar{
+    &.navbar{
+        padding: 0 12px;
+    }
+     .navbar-brand{
+          width:266px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          margin-right: 150px;
+      }
+  
+      .navbar-nav  {
+          .nav-item{
+              margin-left: 10px;
+              margin-right: 10px;
+              position: relative;
+              &:before{
+                content:"";
+                width: 0%;
+                height: 5px;
+                background-color: transparent;
+                position: absolute;
+                left: 0;
+                bottom:0px;
+                transition:ease all 0.5s;
+                left: 50%;
+                transform: translateX(-50%);
+              }
+              &:hover{
+                transition:ease all 0.5s;
+                 &:before{
+                    width: 100%;
+                     background-color: $main-color;
+                  }
+              }
+              &.active{
+                  &:before{
+                    width: 100%;
+                     background-color: $main-color;
+                  }
+              }
+          }
+          .nav-link{
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 40px;
+              color:$black;
+              padding: 2.22rem 0.5rem;
+              &:hover{
+                  color:$black;
+              }
+          }
+      }
+
+    //   .dropdown-menu{
+    //       transform: translateX(-50%);
+    //       left: 50%;
+    //       border-radius: 0;
+    //       min-width: 197px;
+  
+    //       li{
+    //           border-bottom:1px solid #E0E0E0;
+    //           a{
+    //               color:$gray;
+    //               text-align: center;
+    //               font-size: 15px;
+    //           }
+    //           &:last-child{
+    //               border-bottom:0;
+
+                  
+    //           }
+    //       }
+  
+    //   }
+  }
+  .language-dd-wrap{
+    position: absolute;
+    right: 0;
+    top: -6px;
+
+    .custom-select-style {
+      position: relative;
+      .icon{
+        position: absolute;
+        left: 14px;
+        top: 10px;
+      }
+     
+    }
+
+    
+
+    .select-selected {
+      background-color: $main-color;
+      padding: 6px 35px 6px 8px;
+      cursor: pointer;
+      user-select: none;
+      color:$black;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 2px;
+        &.label{
+          color:$black;
+        }
+
+        &:after {
+          position: absolute;
+          content: "";
+          top:3px;
+          right: 10px;
+          width:24px;
+          height:24px;
+          background-image: url("../media/images/ls-dd.svg");
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+        &.select-arrow-active{
+          &:after {
+            transform: rotate(-180deg);
+          }
+        }
+      }
+      .select-items {
+        position: absolute;
+        background-color: $white;
+        color:$black;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 99;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        font-size: 12px;
+        font-weight: 600;
+        div{
+          background-color: $white;
+          color: $black;
+          padding: 8px 16px;
+          cursor: pointer;
+          user-select: none;
+          border-radius: 6px;
+          
+        }
+      }
+}
+// custom select style
+
+  .filter-dd-wrap {
+    
+    .custom-select-style {
+      position: relative;
+      .icon{
+        position: absolute;
+        left: 14px;
+        top: 10px;
+      }
+     
+    }
+    .select-selected {
+      min-width: 233px;
+      background-color: $main-color;
+      padding: 13px 50px 13px 25px;
+      cursor: pointer;
+      user-select: none;
+      color:$white;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 2px;
+        &.label{
+          color:$white;
+
+        }
+
+        &:after {
+          position: absolute;
+          content: "";
+          top:20px;
+          right:20px;
+          width:20px;
+          height:15px;
+          background-image: url("../media/images/filter-dd.svg");
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+        &.select-arrow-active{
+          &:after {
+            transform: rotate(-180deg);
+          }
+        }
+      }
+      .select-items {
+
+        position: absolute;
+        background-color:$main-color;
+        color:$white;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 99;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        font-size: 20px;
+        font-weight: 600;
+
+        div{
+          background-color:$text;
+          color:$white;
+          padding: 8px 16px;
+          cursor: pointer;
+          user-select: none;
+          border-radius: 6px;
+          
+        }
+      }
+  }
+  
+  .custom-select-style select {
+    display: none;
+  }
+  
+  
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+
+
+  // end custom select style
+
+
+

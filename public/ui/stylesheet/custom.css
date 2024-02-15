@@ -1,0 +1,167 @@
+@media (min-width: 1400px){
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width:1300px;
+    }
+
+}
+@media (min-width: 1600px){
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width:1400px;
+    }
+}
+
+/* new css for header logo section */
+.navbar-brand{
+    width: 296px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+   
+}
+.navbar-brand a{
+    display: block;
+}
+.navbar-brand a.site-logo{
+    width: 150px;
+    flex:0 0 150px;
+    border-right:1px solid #222;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.navbar-brand a.brand-logo{
+    width: 120px;
+    flex: 0 0 120px;
+}
+.header.sticky-nav .navbar-brand{
+    width: 296px;
+}
+/* end */
+
+/* new css for logo section */
+
+.brand-logos li{
+    width: 25%;
+    padding: 5px;
+    height: 150px;
+}
+.brand-logos li .logo-img{
+    border:1px solid #000;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.brand-logos li .logo-img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.jalapeno_inner_banner_new{
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+.jalapeno_inner_banner_new .carousel-caption{
+    text-align: unset;
+}
+.jalapeno_inner_banner_new .carousel-caption .content h2 {
+    font-size: 47px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 57px;
+    margin-bottom: 0;
+    display: inline-block;
+    border-top: 1px solid #A8CE39;
+}
+.bm-logo{
+    height: 80px;
+
+}
+.bm-logo img{height: 100%;}
+.bl-footer{
+    padding-bottom: 30px;
+}
+.bl-footer h6{
+    font-weight: 700;
+}
+.bl-footer h6 a{
+    color:#000;
+}
+@media(max-width:1024px){
+    .jalapeno_navbar .navbar-brand{
+        margin-right: 10px;
+    }
+}
+@media(max-width:991px){
+    .brand-logos li{
+        height: 100px;
+    }
+}
+@media(max-width:767px){
+    .help{
+        right: 0;
+        top: -16px;
+    }
+}
+@media(max-width:568px){
+    .brand-logos li{
+        width: 50%;
+        flex:0 0 50%;
+    }
+    .navbar-brand{
+        width: 296px!important;
+        margin-right: 10px!important;
+    }
+}
+/* end */
+
+
+.lightboxOverlay{
+    opacity: 0.4;
+}
+.lb-data .lb-close{
+    width:36px;
+    height:36px;
+    background-image: url(../media/images/close-green.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: relative;
+    top: -20px;
+}
+.lb-data .lb-number{
+    display: none!important;
+}
+.lb-nav{
+    width:62px;
+    height:27px;
+    right: 10px;
+    bottom: 10px;
+    top:auto;
+    left:auto;
+}
+.lb-nav a.lb-prev, .lb-nav a.lb-next{
+    width: 15px;
+    height: 26px;
+}
+
+.lb-nav a.lb-prev{
+    background-image: url("../media/images/bsc-prev.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 1;
+      
+}
+.lb-nav a.lb-prev:hover{
+    background-image: url("../media/images/bsc-prev-h.svg");
+  }
+.lb-nav a.lb-next{
+    background-image: url("../media/images/bsc-next.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 1;
+}
+.lb-nav a.lb-next:hover{
+    background-image: url("../media/images/bsc-next-h.svg");
+  }
+
